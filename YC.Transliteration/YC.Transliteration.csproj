@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Company>YouControl</Company>
+   		<Product>YouControl</Product>
+	    <PackageId>YC.Transliteration</PackageId>
+        <Version>1.1.0-beta</Version>
+        <Description>Transliteration library</Description>
+	    <Copyright>YouControl ©  2019</Copyright>
+	    <RepositoryUrl>https://bitbucket.org/yc.transliteration.git/</RepositoryUrl>
+	    <RepositoryType>git</RepositoryType>
+	    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	    <TargetFrameworks>netcoreapp2.2;netcoreapp3.0</TargetFrameworks>
+	    <LangVersion>7.3</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="Data/lexicon.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    </ItemGroup>
+</Project>

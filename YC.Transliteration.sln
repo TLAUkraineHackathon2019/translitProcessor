@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YC.Transliteration", "YC.Transliteration\YC.Transliteration.csproj", "{0D62B968-9ABB-4DE3-81B7-7FECE005B9DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YC.Transliteration.Tests", "YC.Transliteration.Tests\YC.Transliteration.Tests.csproj", "{C0B3B42D-3E31-47DE-A8BC-6A1F7882B983}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D62B968-9ABB-4DE3-81B7-7FECE005B9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D62B968-9ABB-4DE3-81B7-7FECE005B9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D62B968-9ABB-4DE3-81B7-7FECE005B9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D62B968-9ABB-4DE3-81B7-7FECE005B9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B3B42D-3E31-47DE-A8BC-6A1F7882B983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B3B42D-3E31-47DE-A8BC-6A1F7882B983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B3B42D-3E31-47DE-A8BC-6A1F7882B983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B3B42D-3E31-47DE-A8BC-6A1F7882B983}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
